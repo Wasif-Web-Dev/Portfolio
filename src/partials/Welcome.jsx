@@ -26,7 +26,7 @@ const Welcome = () => {
     }, []);
 
     return (
-        <div className="text-white h-6 w-fill rounded-full bg-[#070708] border-2 border-white flex items-center justify-start p-4">
+        <div className="text-white h-6 w-fill rounded-full bg-[#070708] border border-white flex items-center justify-start p-4">
             <span className="hand inline-block origin-bottom mr-2 px-1 rounded-full transition-all duration-300 bg-[#131316]">
                 🖐️
             </span>{" "}
