@@ -1,11 +1,14 @@
 import React from "react";
 import Welcome from "../partials/Welcome";
 import Skills from "../partials/Skills";
+import Tools from "../partials/Tools";
+import CreativePortfolio from "../partials/CreativePortfolio";
+import Customers from "../partials/Customers";
 
 const Home = () => {
     return (
         <>
-            <div className="h-[100vh]  w-full flex items-center  flex-col justify-center pt-[40vh]">
+            <div className="min-h-[200vh] border-2 w-full flex items-center  flex-col justify-center pt-[25vh]">
                 <div className="w-[45%]  flex flex-col  items-center justify-center  gap-2 ">
                     <Welcome />
                     <h1 className="text-white text-5xl leading-none font-bold mt-5 text-center">
@@ -19,7 +22,10 @@ const Home = () => {
                         Let's Work Together
                     </button>
                 </div>
-            <Skills />
+                <Skills />
+                <Tools />
+                <CreativePortfolio />
+                <Customers />
             </div>
         </>
     );

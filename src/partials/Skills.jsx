@@ -62,7 +62,7 @@ const Skills = () => {
         <div className="min-h-[50vh] 2xxl:min-h-[35vh] mt-12 w-[95%] max-w-[2000px] mx-auto">
             {/* Skills Marquee */}
             <div
-                className={`h-[8vh] sm:h-[10vh] relative md:h-[12vh] flex border items-center justify-center mx-auto px-2 xs:px-3 sm:px-4 md:px-8 lg:px-16 overflow-hidden w-[98%] sm:w-[95%] md:w-[100%] rounded-full z-[40]`}
+                className={`h-[8vh] sm:h-[10vh] relative md:h-[12vh] flex border border-white/20 items-center justify-center mx-auto px-2 xs:px-3 sm:px-4 md:px-8 lg:px-16 overflow-hidden w-[98%] sm:w-[95%] md:w-[100%] rounded-full z-[40]`}
             >
                 <div className="w-full h-full flex items-center justify-start overflow-hidden relative bg-white/10 rounded-full">
                     <div className="absolute right-0 w-[4%] h-full rounded-lg  z-10 bg-gradient-to-l from-black/90 to-transparent"></div>
@@ -71,7 +71,7 @@ const Skills = () => {
                         {marqueeSkills.map((skill, index) => (
                             <div
                                 key={index}
-                                className="border-current border h-[3vh] text-white xs:h-[4vh] sm:h-[5vh] w-max rounded-2xl sm:rounded-3xl flex items-center justify-center px-2 xs:px-3 sm:px-4 md:px-6"
+                                className=" border border-white/20 h-[3vh] text-white xs:h-[4vh] sm:h-[5vh] w-max rounded-2xl sm:rounded-3xl flex items-center justify-center px-2 xs:px-3 sm:px-4 md:px-6"
                             >
                                 <h1 className="text-[10px] xs:text-xs sm:text-sm text-white md:text-base lg:text-lg min-[3840px]:text-2xl min-[4500px]:text-3xl">
                                     {skill}
